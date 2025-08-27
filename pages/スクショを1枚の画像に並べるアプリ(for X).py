@@ -62,7 +62,7 @@ def main():
     delete_files(resize_path)
     delete_files(fill_path)
 
-    st.subheader('スクショを1枚の画像に並べるアプリ（for X）ver.0.1')
+    st.subheader('スクショを1枚の画像に並べるアプリ(for X)')
 
     user_number = st.number_input("列数(横に並べる数)を入力してください", min_value=1, max_value=100, value=5, step=1)
     color = st.color_picker('背景色を選択してください', "#000000")
