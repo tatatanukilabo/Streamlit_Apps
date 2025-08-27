@@ -46,7 +46,7 @@ def resize_image(file_path, save_path, width, height):
 
 def main():
     delete_files()
-    st.subheader('画像を縮小するアプリ（for IRIAM）ver.0.1')
+    st.subheader('画像を縮小するアプリ(for IRIAM)')
     file = st.file_uploader('画像をアップロードしてください.', type=['jpg', 'jpeg', 'png'])
     if file:
         st.markdown(f'{file.name} をアップロードしました.')
