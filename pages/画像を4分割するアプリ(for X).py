@@ -148,7 +148,7 @@ def download_files(img_path):
 
 def main():
     delete_files()
-    st.subheader('画像を4分割するアプリ（for X）ver.0.1')
+    st.subheader('画像を4分割するアプリ(for X)')
     file = st.file_uploader('画像をアップロードしてください.', type=['jpg', 'jpeg', 'png'])
     if file:
         st.markdown(f'{file.name} をアップロードしました.')
