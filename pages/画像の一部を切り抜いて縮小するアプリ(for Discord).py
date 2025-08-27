@@ -48,7 +48,7 @@ def get_size(file_path):
 
 def main():
     delete_files()
-    st.subheader('画像の一部を切り抜いて縮小するアプリ（for Discord）ver.0.1')
+    st.subheader('画像の一部を切り抜いて縮小するアプリ(for Discord)')
     file = st.file_uploader('画像をアップロードしてください.', type=['jpg', 'jpeg', 'png'])
     if file:
         st.markdown(f'{file.name} をアップロードしました.')
