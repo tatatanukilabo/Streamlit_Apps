@@ -40,7 +40,7 @@ search_query = st.text_input("🔍 アプリ名やキーワードで検索", "")
 # 検索結果の表示
 for app in apps:
     if search_query.lower() in app["title"].lower() or search_query.lower() in app["description"].lower():
-        st.subheader(f"📌 {app['title']}")
+        st.subheader(f"🍃 {app['title']}")
         st.write(app["description"])
         st.page_link(app["pages"], label=f"・{app["title"]}へ移動")
         st.markdown("---")
