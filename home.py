@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="たぬきツールズ", layout="centered")
 
 st.title("たぬきツールズ")
-st.write("X, IRIAM, Discordに使えるWebアプリ集です。サイドバーから各アプリを選択できます。")
+st.write("X, IRIAM, Discordに使えるWebアプリ集です。")
 
 # アプリ情報のリスト
 apps = [
