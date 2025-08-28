@@ -96,6 +96,8 @@ def main():
     st.markdown(
         f"""
         <div style='text-align: center;'>
+            <br>
+            <br>
             Copyright © 2024-2025 <a href="{url}">たたたぬき</a> #たぬきツールズ
         </div>
         """,
