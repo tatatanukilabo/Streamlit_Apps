@@ -10,27 +10,27 @@ apps = [
     {
         "title": "スクショを1枚の画像に並べるアプリ(for X)",
         "description": "複数のスクショ画像（縦横比一定）を指定した列数に並べて1枚の画像に変換するアプリです。余白の背景色指定可能です。",
-        "url": "https://tatatanuki-apps.streamlit.app/スクショを1枚の画像に並べるアプリ(for X)"
+        "pages": "pages/スクショを1枚の画像に並べるアプリ(for X).py"
     },
     {
         "title": "画像の一部を切り抜いて縮小するアプリ(for Discord)",
         "description": "たぬきが書いたちびキャラのイラストの顔周辺を切り抜いてDiscordの絵文字サイズ(128x128px)、スタンプサイズ(320x320px)に変換するアプリです。",
-        "url": "https://tatatanuki-apps.streamlit.app/画像の一部を切り抜いて縮小するアプリ(for Discord)"
+        "pages": "pages/画像の一部を切り抜いて縮小するアプリ(for Discord).py"
     },
     {
         "title": "画像を4分割するアプリ(for X)",
         "description": "画像を4分割し、Xで4枚並べたときに元画像だけが見えるように上下(左右)に余白をつけるアプリです。分割画像はZIPファイルにまとめてダウンロードできます。余白の背景色指定可能です。",
-        "url": "https://tatatanuki-apps.streamlit.app/画像を4分割するアプリ(for X)"
+        "pages": "pages/画像を4分割するアプリ(for X).py"
     },
     {
         "title": "画像を縮小するアプリ(for Discord)",
         "description": "画像をDiscordの絵文字サイズ(128x128px)、スタンプサイズ(320x320px)に縮小するアプリです。元画像の余白除去もできます。",
-        "url": "https://tatatanuki-apps.streamlit.app/画像を縮小するアプリ(for Discord)"
+        "pages": "pages/画像を縮小するアプリ(for Discord).py"
     },
     {
         "title": "画像を縮小するアプリ(for IRIAM)",
         "description": "画像をIRIAMの立ち絵サイズ(2000x4000px以内)、ミニキャラサイズ(600x600px以内)に縮小するアプリです。元画像の余白除去もできます。",
-        "url": "https://tatatanuki-apps.streamlit.app/画像を縮小するアプリ(for IRIAM)"
+        "pages": "pages/画像を縮小するアプリ(for IRIAM).py"
     },
 ]
 
