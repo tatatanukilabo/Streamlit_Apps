@@ -1,8 +1,26 @@
 import streamlit as st
+import base64
 
 st.set_page_config(page_title="たぬきツールズ", layout="centered")
 
-st.title("たぬきツールズ")
+# 画像ファイルをBase64に変換
+def get_base64_image(path):
+    with open(path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+# Base64画像をHTMLで表示
+image_base64 = get_base64_image("data/logo.png")  # 先頭の / は不要
+st.markdown(
+    f"""
+    <div style="display: flex; align-items: center;">
+        <img src="data:image/png;base64,{image_base64}" style="height: 3em; margin-right: 0.5em;">
+        <h1 style="margin: 0;">たぬきツールズ</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 st.write("X, IRIAM, Discordに使えるWebアプリ集です。")
 
 # アプリ情報のリスト
