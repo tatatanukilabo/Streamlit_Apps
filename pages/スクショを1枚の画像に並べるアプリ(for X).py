@@ -130,9 +130,17 @@ def main():
         delete_files(dir_path)
         delete_files(resize_path)
         delete_files(fill_path)
+        
+        url = "https://x.com/ta_ta_ta_nu_ki"
+        st.markdown(
+            f"""
+            <div style='text-align: center;'>
+                Copyright © 2024-2025 <a href="{url}">たたたぬき</a> #たぬきツールズ
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
-    url = "https://x.com/ta_ta_ta_nu_ki"
-    st.write("Copyright © 2024 [たたたぬき](%s) #たぬきツール" % url)
 
 if __name__ == '__main__':
     main()
