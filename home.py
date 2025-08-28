@@ -49,6 +49,8 @@ url = "https://x.com/ta_ta_ta_nu_ki"
 st.markdown(
     f"""
     <div style='text-align: center;'>
+        <br>
+        <br>
         Copyright © 2024-2025 <a href="{url}">たたたぬき</a> #たぬきツールズ
     </div>
     """,
