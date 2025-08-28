@@ -46,11 +46,14 @@ for app in apps:
         #st.markdown(f"""<a href="{app['url']}" target="_self">開く</a>""", unsafe_allow_html=True)
 
 
-center_align_html = """
-<div style='text-align: center; color: gray; font-size: 16px;'>
-  <br>
-  <br>
-  <p>© 2025 たたたぬき</p>
-</div>
-"""
-st.markdown(center_align_html, unsafe_allow_html=True)
+import streamlit as st
+
+url = "https://x.com/ta_ta_ta_nu_ki"
+st.markdown(
+    f"""
+    <div style='text-align: center;'>
+        Copyright © 2024 <a href="{url}">たたたぬき</a> #たぬきツールズ
+    </div>
+    """,
+    unsafe_allow_html=True
+)
