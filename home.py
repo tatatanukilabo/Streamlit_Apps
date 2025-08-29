@@ -10,7 +10,7 @@ def get_base64_image(path):
     return base64.b64encode(data).decode()
 
 # Base64画像をHTMLで表示
-image_base64 = get_base64_image("data/logo.png")  # 先頭の / は不要
+image_base64 = get_base64_image("data/logo.png") 
 st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
@@ -21,7 +21,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.write("X, IRIAM, Discordに使えるWebアプリ集です。")
+st.write("X, IRIAM, Discordに使えるWebアプリ集です。このほか、こんなアプリが欲しいといったリクエストや既存のアプリにバグがあればTwitterかDiscordでご連絡ください。")
 
 # アプリ情報のリスト
 apps = [
