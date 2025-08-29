@@ -15,7 +15,7 @@ st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{image_base64}" style="height: 3em; margin-right: 0.5em;">
-        <h1 style="margin: 0;">たぬきツールズ</h1>
+        <h2 style="margin: 0;">たぬきツールズ</h2>
     </div>
     """,
     unsafe_allow_html=True
